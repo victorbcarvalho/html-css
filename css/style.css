@@ -220,4 +220,23 @@ img ~ p{
 }
 */
 
+/* MOBILE */
 
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .utensilios, .utensilios ~ p, .lista-beneficios{
+        margin: 0 0 0 2%;
+    }
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+}
