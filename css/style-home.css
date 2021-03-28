@@ -8,6 +8,7 @@
 
 p{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #missao{
@@ -20,15 +21,16 @@ em strong{
 
 .itens{
     font-style: italic;
+    font-size: 18px;
+    padding: 5px 0 10px;
 }
 
 .principal{
-    background: #CCCCCC;
-    padding: 30px;
+    padding: 50px;
 }
 
 .beneficios{
-    background: #fff;
+    background: #eee;
     padding: 20px;
 }
 
@@ -36,11 +38,25 @@ em strong{
     text-align: center;
 }
 
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h2, h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
 .beneficios ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
-     margin-right: 15%;
+    margin: 10% 0 0 15%;
 }
 
 .imagembeneficios{
